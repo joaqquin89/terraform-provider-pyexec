@@ -16,10 +16,12 @@ func resourcePython() *schema.Resource {
 			"args": &schema.Schema{
 				Type:     schema.TypeString,
 				Required: true,
+				ForceNew: true,
 			},
 			"script": &schema.Schema{
 				Type:     schema.TypeString,
 				Required: true,
+				ForceNew: true,
 			},
 			"pyversion": &schema.Schema{
 				Type:     schema.TypeString,

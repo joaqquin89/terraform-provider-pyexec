@@ -1,6 +1,6 @@
 # terraform-provider-pyexec
 
-this project allow to execute python  scirpts using terraform.
+this project allow to execute python scripts using terraform.
 
 the key to use this module is to put your python script in the same folder , this could be as example:
 

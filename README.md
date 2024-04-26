@@ -4,6 +4,13 @@ this project allow to execute python  scirpts using terraform.
 
 the key to use this module is to put your python script in the same folder , this could be as example:
 
+    terraform {
+        required_providers {
+            python = {
+                source = "joaqquin89/python"
+            }
+        }
+    }
 
 	resource "python_exec" "main" {
         pyversion = "v2"
